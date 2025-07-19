@@ -38,5 +38,14 @@ public class HashMap001 {
         //putIfAbsent put value
         mp.putIfAbsent("Neha singh",43);
         System.out.println(mp.keySet());
+
+        //using loops print details
+        for(String key: mp.keySet()){
+            System.out.println("Age of %s is %d\n"+key+mp.get(key));
+        }
+
+        for(Map.Entry<String,Integer> e:mp.entrySet()){
+            System.out.println("Age of %s is %d\n"+e.getKey()+e.getValue());
+        }
     }
 }
