@@ -22,5 +22,21 @@ public class HashMap001 {
 
         //get element in HashMap
         System.out.println(mp.get("Amit"));
+        System.out.println(mp.get("Vishal"));
+        System.out.println(mp.get("Rahul"));
+        System.out.println(mp.get("Pawan"));
+
+        //size question solution
+        System.out.println("HashMap size is:-"+mp.size());
+
+        //keyset in HashMap
+        System.out.println("Keyset in HashMap:-"+mp.keySet());
+
+        //HashMapValue
+        System.out.println("Values in HashMap:-"+mp.values());
+
+        //putIfAbsent put value
+        mp.putIfAbsent("Neha singh",43);
+        System.out.println(mp.keySet());
     }
 }
